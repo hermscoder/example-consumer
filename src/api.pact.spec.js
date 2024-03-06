@@ -15,7 +15,7 @@ const mockProvider = new Pact({
 describe('API Pact test', () => {
   describe('retrieving a product', () => {
     test('ID 10 exists', async () => {
-      Arrange
+      // Arrange
       const expectedProduct = {
         id: '10',
         type: 'CREDIT_CARD',
